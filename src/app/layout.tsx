@@ -7,12 +7,12 @@ import { MainHeader } from "@/components/layout/main-header";
 
 const navs = [
   {
-    name: "Our Team",
-    link: "/team",
+    name: "Services",
+    link: "/services",
   },
   {
-    name: "Our History",
-    link: "/history",
+    name: "About",
+    link: "/about",
   },
   {
     name: "Contact Us",
