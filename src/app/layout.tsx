@@ -3,6 +3,22 @@ import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/theme-provider";
 import "./globals.css";
+import { MainHeader } from "@/components/layout/main-header";
+
+const navs = [
+  {
+    name: "Our Team",
+    link: "/team",
+  },
+  {
+    name: "Our History",
+    link: "/history",
+  },
+  {
+    name: "Contact Us",
+    link: "/contact",
+  },
+];
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -33,7 +49,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <MainHeader navs={navs} />
+          <main className="max-w-screen-2xl mx-auto p-4">{children}</main>
         </ThemeProvider>
       </body>
     </html>
