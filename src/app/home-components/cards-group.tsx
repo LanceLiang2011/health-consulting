@@ -11,7 +11,7 @@ const cards = [
   },
   {
     id: "02",
-    title: "value1",
+    title: "value2",
     content: "This will the discription of our value or phylosophy",
     key: "key word",
   },
