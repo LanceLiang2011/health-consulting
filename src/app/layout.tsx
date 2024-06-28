@@ -8,15 +8,15 @@ import { MainHeader } from "@/components/layout/main-header";
 const navs = [
   {
     name: "Services",
-    link: "/services",
+    link: "/",
   },
   {
     name: "About",
-    link: "/about",
+    link: "/",
   },
   {
     name: "Contact Us",
-    link: "/contact",
+    link: "/",
   },
 ];
 
