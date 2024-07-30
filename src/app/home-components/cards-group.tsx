@@ -5,21 +5,24 @@ import { EvervaultCard, Icon } from "@/components/ui/evervault-card";
 const cards = [
   {
     id: "01",
-    title: "value1",
-    content: "This will the discription of our value or phylosophy",
-    key: "key word",
+    title: "People-centric",
+    content:
+      "Our solutions prioritize the needs and well-being of individuals.",
+    key: "People-centric",
   },
   {
     id: "02",
-    title: "value2",
-    content: "This will the discription of our value or phylosophy",
-    key: "key word",
+    title: "Holistic",
+    content:
+      "We consider all aspects and interconnected factors in our solutions.",
+    key: "Holistic Approach",
   },
   {
     id: "03",
-    title: "value3",
-    content: "This will the discription of our value or phylosophy",
-    key: "key word",
+    title: "Impact-driven",
+    content:
+      "We focus on creating meaningful and measurable positive outcomes.",
+    key: "Impact-driven",
   },
 ];
 

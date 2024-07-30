@@ -35,7 +35,7 @@ export function MainHeader({ navs }: Props) {
               alt="Flowbite Logo"
             />
             <span className="hidden md:block self-center text-2xl font-semibold whitespace-nowrap ">
-              ToBeNamed
+              FutureHealthDesign
             </span>
           </Link>
           {/* Desktop */}

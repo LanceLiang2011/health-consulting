@@ -12,11 +12,13 @@ export default function Services() {
       >
         <div className="max-w-xs">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Our Consulting Service Title
+            Needs Assessment
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            Some contents of our team, service, and the value we provide. Some
-            contents of our team, service, and the value we provide.
+            We identify current problems to uncover areas for improvement.
+          </p>
+          <p className="mt-4 text-left  text-base/6 text-neutral-200">
+            We identify your specific needs to develop tailored solutions.
           </p>
         </div>
         <Image
@@ -29,19 +31,24 @@ export default function Services() {
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
         <h2 className="max-w-80  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-          No shirt, no shoes, no weapons.
+          System Dynamics Exploration
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          If someone yells “stop!”, goes limp, or taps out, the fight is over.
+          We explore the dynamics of your systems to better address needs in a
+          broader context.
         </p>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm md:max-w-lg  text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Contact for the best translational health consulting in the world
+            Solution Development and Implementation
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            Of course the content should not be such cocky :)
+            We develop and test solutions tailored to your identified needs.
+          </p>
+          <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+            We ensure solutions are sustainable and applicable to real-world
+            settings.
           </p>
         </div>
         <Image

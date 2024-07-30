@@ -26,8 +26,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "ToBeNamed",
-  description: "Translational Health Care consulting service",
+  title: "Future Health Design",
+  description: "Designing the resilient future of Health starts today.",
 };
 
 export default function RootLayout({

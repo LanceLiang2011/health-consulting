@@ -415,11 +415,11 @@ export function GlobalBusiness() {
           className="div"
         >
           <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-            We provide health consulting worldwide
+            We provide health consulting worldwide.
           </h2>
           <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-            Here we can add some more informations about out globalization
-            featrue
+            Our global reach allows us to offer tailored health consulting
+            services to clients across various regions.
           </p>
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
