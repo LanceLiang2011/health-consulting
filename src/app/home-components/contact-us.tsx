@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 
 export default function ContactUs() {
@@ -28,9 +29,12 @@ export default function ContactUs() {
       </p>
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-        <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
+        <Link
+          href="/contact"
+          className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-semibold rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2"
+        >
           Contact us
-        </button>
+        </Link>
       </div>
     </div>
   );

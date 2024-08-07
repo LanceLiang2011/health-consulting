@@ -16,7 +16,7 @@ const navs = [
   },
   {
     name: "Contact Us",
-    link: "/",
+    link: "/contact",
   },
 ];
 
